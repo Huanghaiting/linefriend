@@ -1,0 +1,28 @@
+<view>购物车</view>
+<scroll-view class="main">
+<label><checkbox class="choose"></checkbox> </label>
+    <image src="https://img.alicdn.com/imgextra/i3/2302648993/TB2oTbzkF9gSKJjSspbXXbeNXXa_!!2302648993.jpg_430x430q90.jpg"></image>
+<view class="title">LINEFRIENDS 布朗熊趴趴抱枕舒适靠垫 动漫周边二次元家居抱枕</view> 
+<view class="num">
+<text class="shuliang">数量： </text>
+<text class="jiajian">-</text>
+<text class="jiajian">1 {{num}}</text>
+<text class="jiajian">+</text>
+<text class="qingchu">×</text>
+</view>
+
+ </scroll-view>
+
+ <scroll-view class="main">
+<checkbox></checkbox>
+    <image src="https://img.alicdn.com/imgextra/i3/2302648993/TB2oTbzkF9gSKJjSspbXXbeNXXa_!!2302648993.jpg_430x430q90.jpg"></image>
+<view class="title">LINEFRIENDS 布朗熊趴趴抱枕舒适靠垫 动漫周边二次元家居抱枕</view> 
+<view class="num">
+<text class="shuliang">数量： </text>
+<text class="jiajian">-</text>
+<text class="jiajian">1 {{num}}</text>
+<text class="jiajian">+</text>
+<text class="qingchu">×</text>
+</view>
+
+ </scroll-view>

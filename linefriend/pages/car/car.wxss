@@ -1,0 +1,67 @@
+.main{
+  width: 100%;
+  height: 200rpx;
+  
+  margin-top: 20rpx;
+}
+.main image{
+  width: 30%;
+  height: 180rpx;
+}
+
+.title{
+  font-size: 26rpx;
+  padding-left: 260rpx;
+ margin-top: -200rpx;
+ padding-top: 30rpx;
+}
+.num{
+  margin-top: 30rpx;
+}
+.num text{
+font-size: 32rpx;
+
+}
+.shuliang{
+  margin-left:260rpx;
+  
+}
+.jiajian{
+  margin-left:20rpx;
+}
+.qingchu{
+  margin-left: 200rpx;
+ 
+}
+
+/* checkbox未选中时样式 */
+
+checkbox .wx-checkbox-input{
+
+  border-radius: 50%;
+
+  height: 30rpx;
+
+  width: 30rpx;
+
+  margin-top: -140rpx;
+  margin-left: 14rpx;
+
+ /* 自定义样式.... */
+
+}
+
+
+
+/* checkbox选中时样式 */
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+
+  background-color: red;
+  font-size: 26rpx;
+  border: 1rpx solid red;
+  margin-left: 14rpx;
+   
+  /* 自定义样式.... */
+
+}

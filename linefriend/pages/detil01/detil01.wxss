@@ -1,0 +1,188 @@
+
+swiper{
+ width: 100%;
+ height: 600rpx;
+
+}
+swiper image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.line{
+width:100%;
+height:3rpx;
+background:#E0E0E0;
+margin-top: 30px;
+}
+.title{
+font-size: 30rpx;
+padding: 15px;
+width: 90%;
+}
+.price{
+font-size: 30rpx;
+padding-left: 15px;
+width: 90%;
+color: red;
+margin-top: -5px;
+}
+
+.acti_p{
+font-size: 26rpx;
+padding-left: 15px;
+width: 90%;
+color: red;
+}
+.detil_size{
+  font-size: 30rpx;
+ padding-left: 15px;
+ 
+ 
+}
+
+ .detil_con{
+   margin-top: 10px;
+   background: #F0F0F0;
+ }
+ .detil_title{
+   margin-left: 10px;
+   margin-top: 10px;
+ }
+ .info{
+   font-size: 26rpx;
+   margin-left: 10px;
+   padding-top: 5px;
+   background: #F0F0F0;
+  
+ }
+ .detil_imghead image{
+   width: 100%;
+   height: 450rpx;
+ }
+ .detil_imghead view{
+   width: 100%;
+   height: 200rpx;
+ }
+ .detil_imgbody image{
+   width: 100%;
+   height: 1000rpx;
+ }
+
+.nav {
+    
+    position:fixed;
+    bottom:0;
+   
+    
+}
+
+.car{
+    width:32%;
+    height:60px;
+    background:#FFFFFF;
+    float: left;
+    text-align: center;
+    font-size: 30rpx;
+    
+    
+   
+    
+}
+.car view{
+  margin-top: 20px;
+  
+}
+.soon{
+    width:32%;
+    height:60px;
+    background:#FFD700;
+    float: left;
+    text-align: center;
+    font-size: 30rpx;
+    
+}
+.soon view{
+  margin-top: 20px;
+}
+.content{
+   padding: 0;
+  
+  font-size: 30rpx;
+    width: 18%;
+    height: 60px;
+    background:#FFFFFF;
+    float: left;
+    border-right: 1px solid #E0E0E0;
+    border-radius: 0;
+   
+   
+}
+.content image{
+ width: 50%;
+ height: 50rpx;
+margin-top: 10rpx;
+  
+}
+.content view{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -30rpx;
+}
+.goods-operation-num{
+    width: 160rpx;
+}
+.goods-operation-add{
+   margin-left: 40rpx;
+   font-size: 40rpx;
+    
+   
+}
+.goods-operation-cut{
+   margin-left: 40rpx;
+   margin-right: 30rpx;
+   font-size: 50rpx;
+   
+}
+.detil_num{
+  font-size: 30rpx;
+  padding-left: 15rpx;
+ 
+}
+
+radio-group{ 
+ width: 100%; 
+} 
+
+.size{
+  width: 100%;
+  height: 60rpx;
+}
+
+.flex_item { 
+ display: inline;
+ margin-left: 40rpx;
+ 
+} 
+.flex_item label{ 
+ padding: 5rpx 0;  
+ display: inline-block;  
+ width: 10%; 
+ 
+} 
+.flex_item label.active{ 
+ color: red; 
+ border: 1rpx solid red; 
+   
+} 
+.carts-icon-num{
+    position: absolute;
+    
+    width: 30rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    font-size: 22rpx;
+}

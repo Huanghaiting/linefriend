@@ -1,0 +1,106 @@
+<!--pages/detil01/detil01.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgDetil}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+
+
+<scroll-view class='title'>LINEFRIENDS 布朗熊趴趴抱枕舒适靠垫 动漫周边二次元家居抱枕</scroll-view>
+<scroll-view class='price'>¥ 378</scroll-view>
+<view class="line"></view>
+<scroll-view class='acti'>
+<text class='acti_p'>本店活动 满199元,包邮</text>
+</scroll-view>
+
+<scroll-view >
+ <radio-group bindchange="radioCheckedChange"> 
+ <text class='detil_size'>规格：</text>
+   <view class="flex_item"> 
+    <label class="{{radioCheckVal==0?'active':''}}"><image class="size" src='{{imgSize1}}'></image> 
+     <radio value="0"  hidden="true"></radio> 
+    </label> 
+   </view> 
+   <view class="flex_item"> 
+    <label class="{{radioCheckVal==1?'active':''}}"> <image class="size" src='{{imgSize2}}'></image> 
+     <radio value="1" hidden="true"></radio> 
+    </label> 
+   </view> 
+  
+ </radio-group> 
+
+</scroll-view>
+
+<scroll-view>
+<text class="goods-operation-num detil_size">数量： </text>
+<text class="goods-operation-cut" bindtap="cutCount">-</text>
+<text class='detil_num'> {{num}}</text>
+<text class="goods-operation-add" bindtap="addCount">+</text>
+</scroll-view>
+
+
+<scroll-view>
+<text class='detil_size'>大小:</text>
+<text class='detil_size'>300×550×200mm</text>
+</scroll-view>
+<scroll-view class='detil_title'>商品信息</scroll-view>
+<scroll-view class='detil_con'>
+<view class='info'> ACG作品名: LINE FRIENDS</view>
+<view class='info'>周边产品: 抱枕/靠垫</view>
+<view class='info'>适用年龄: 3周岁以上</view>
+</scroll-view>
+
+<view class="line"></view>
+<scroll-view class='detil_imghead'>
+ <image src='https://img.alicdn.com/imgextra/i2/2302648993/TB2NAh0i8DH8KJjSspnXXbNAVXa_!!2302648993.jpg'></image> 
+ <image src='https://img.alicdn.com/imgextra/i3/2302648993/TB2GRvqeviSBuNkSnhJXXbDcpXa_!!2302648993.jpg'></image>
+ </scroll-view>
+<scroll-view class='detil_imgbody'>      
+<image src='https://img.alicdn.com/imgextra/i4/2302648993/TB2NdoNcBLN8KJjSZFpXXbZaVXa_!!2302648993.jpg'></image>
+<image src='https://img.alicdn.com/imgextra/i4/2302648993/TB2BOf5cvjM8KJjSZFsXXXdZpXa_!!2302648993.jpg'></image>
+<image src='https://img.alicdn.com/imgextra/i4/2302648993/TB2YB0GhhTI8KJjSspiXXbM4FXa_!!2302648993.jpg'></image>
+<image src='https://img.alicdn.com/imgextra/i2/2302648993/TB2aT_AhlHH8KJjy0FbXXcqlpXa_!!2302648993.jpg'></image>
+<image src='https://img.alicdn.com/imgextra/i2/2302648993/TB2qVEbcwjN8KJjSZFgXXbjbVXa_!!2302648993.jpg'></image>
+<image src='https://img.alicdn.com/imgextra/i1/2302648993/TB28ZZlcvjM8KJjSZFNXXbQjFXa_!!2302648993.jpg'></image>
+<image src='https://img.alicdn.com/imgextra/i3/2302648993/TB2w9HkcvfM8KJjSZPfXXbklXXa_!!2302648993.jpg'></image>
+<image src='https://img.alicdn.com/imgextra/i3/2302648993/TB2mODnbQfb_uJkHFrdXXX2IVXa_!!2302648993.jpg'></image>
+<image src='https://img.alicdn.com/imgextra/i3/2302648993/TB2DEemhhPI8KJjSspfXXcCFXXa_!!2302648993.jpg'></image>  
+<image src='https://img.alicdn.com/imgextra/i2/2302648993/TB2GegXcpLM8KJjSZFBXXXJHVXa_!!2302648993.jpg'></image>
+<image src='https://img.alicdn.com/imgextra/i3/2302648993/TB296EnX0zJ8KJjSspkXXbF7VXa_!!2302648993.jpg'></image>  
+ 
+ </scroll-view>       
+ <scroll-view class='detil_imghead'>
+ <image src='https://gdp.alicdn.com/imgextra/i2/2302648993/TB2Y8zZoR0kpuFjy1zdXXXuUVXa_!!2302648993.jpg'></image>
+ <image src='https://gdp.alicdn.com/imgextra/i3/2302648993/TB21stmidzJ8KJjSspkXXbF7VXa_!!2302648993.jpg'></image>
+ <view></view>
+ </scroll-view>
+
+
+ <scroll-view class="nav">
+
+<button open-type= "contact" class='content'>
+<image src='/images/info.jpg'/>
+<view>客服</view>
+
+</button>
+
+
+<button class="content {{scaleCart?'on':''}}"  bindtap="car_all" >
+<image  src='/images/car.png' /> 
+<text class="carts-icon-num" wx:if="{{hasCarts}}">{{totalNum}}</text>
+<view>购物车</view>
+
+</button>
+
+
+<view class='car' bindtap="addToCart"><view>加入购物车</view></view>
+<view class='soon' bindtap="addsoon"><view>立即购买</view></view>
+
+</scroll-view> 
+
+
